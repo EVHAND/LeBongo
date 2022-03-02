@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Carte Le Bongo</title>
+    <meta name="description" content="Le Bongo n°1 sur 50 restaurant au Tampon 974"> <!-- Meta Description -->
+    <link rel="stylesheet" href="../css/styleTrip.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="../js/script.js"></script>
+    <!-- Load icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <div id=banniere>
+        <!--hamburger-->
+        <div class="menu-wrap">
+            <input type="checkbox" class="toggler">
+            <div class="hamburger">
+                <div></div>
+            </div>
+            <!--menu-->
+            <div class="menu">
+                <div>
+                    <div>
+                        <ul>
+                            <li><a href="../index.html">Accueil</a></li>
+                            <li><a href="galerie.html">Galerie</a></li>
+                            <li><a href="carte.html">Carte</a></li>
+                            <li><a href="tripadvisor.html">Tripadvisor</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <img src="../img/bongo.PNG" alt="Logo Le Bongo">
+        <!--champ de recherche-->
+        <div id="bouttonRecherche">
+            <form class="example" action="action_page.php">
+                <input type="text" placeholder="Rechercher..." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+
+    </div>
+    <div id="corpsDePage">
+        <!--séparateur pour changement de couleur-->
+        <button onclick="couleur()">Trop de lumière ?</button>
+        <div id="présentation">
+            <h1>Restaurant de tourisme</h1><br>
+            <hr style="height: 2px; margin: auto; color: #C6A677; background-color: #C6A677; width: 50%; border: none;">
+            <br>
+
+        </div>
+        <!-- trip -->
+
+        <div id="SkillBox">
+            <img src="../img/trav.svg" alt="Travelers choice" />
+            <div class="SkillBar">
+                <div id="Skill-Avis">
+                    <span class="Skill-Area ">Avis Positif</span>
+                    <span class="PercentText ">90%</span>
+                </div>
+            </div>
+
+            <div class="SkillBar">
+                <div id="Skill-Cuisine">
+                    <span class="Skill-Area ">Cuisine</span>
+                    <span class="PercentText ">90%</span>
+                </div>
+            </div>
+
+            <div class="SkillBar">
+                <div id="Skill-Service">
+                    <span class="Skill-Area ">Service</span>
+                    <span class="PercentText ">90%</span>
+                </div>
+            </div>
+
+            <div class="SkillBar">
+                <div id="Skill-Rapport">
+                    <span class="Skill-Area ">Prix</span>
+                    <span class="PercentText ">80%</span>
+                </div>
+            </div>
+
+            <div class="SkillBar">
+                <div id="Skill-Ambiance">
+                    <span class="Skill-Area ">Ambiance</span>
+                    <span class="PercentText ">80%</span>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <!--footer-->
+    <!-- Site footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <h6>Apropos</h6>
+                    <p class="text-justify">Au Tampon, dans un cadre agréable, notre équipe vous attends pour vous faire
+                        découvrir des saveurs exceptionnelles...||
+                        187 Rue Hubert Delisle 187 Rue Hubert Delisle, Le Tampon 97430 Ile de La Réunion
+                    </p>
+                </div>
+
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Liens Rapides</h6>
+                    <ul class="footer-links">
+                        <li><a href="../index.html">Accueil</a></li>
+                        <li><a href="galerie.html">Galerie</a></li>
+                        <li><a href="carte.html">Carte</a></li>
+                        <li><a href="tripadvisor.html">Tripadvisor</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by
+                        <a href="#">EvhanD</a>.
+                    </p>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <ul class="social-icons">
+                        <li><a class="facebook" href="https://www.facebook.com/Le-Bongo-229149858258/?ref=page_internal"><i class="fa fa-facebook"></i></a></li>
+                        <li><a class="twitter" href="https://www.facebook.com/Le-Bongo-229149858258/?ref=page_internal"><i class="fa fa-twitter"></i></a></li>
+                        <li><a class="dribbble" href="https://www.facebook.com/Le-Bongo-229149858258/?ref=page_internal"><i class="fa fa-dribbble"></i></a></li>
+                        <li><a class="linkedin" href="https://www.facebook.com/Le-Bongo-229149858258/?ref=page_internal"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
